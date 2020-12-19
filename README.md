@@ -1,1 +1,1 @@
-# movies_kmp
+Test KMM application uses MoviesDB api
