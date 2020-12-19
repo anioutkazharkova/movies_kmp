@@ -1,0 +1,2 @@
+com/example/myapplication/shared/BuildConfig.java
+ com.example.myapplication.shared.BuildConfig

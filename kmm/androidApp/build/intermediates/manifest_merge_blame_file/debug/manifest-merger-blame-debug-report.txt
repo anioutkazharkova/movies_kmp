@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication.androidApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:3:22-64
+12
+13    <application
+13-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:4:5-15:19
+14        android:allowBackup="false"
+14-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:5:13-40
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] /Users/annazharkova/.gradle/caches/transforms-2/files-2.1/c2f4d62d72638fdf7382f4733132f14c/core-1.3.1/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:supportsRtl="true"
+18-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:6:13-39
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme"
+20-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:8:13-44
+21        android:usesCleartextTraffic="true" >
+21-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:7:9-44
+22        <activity android:name="com.example.myapplication.androidApp.MainActivity" >
+22-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:9:9-14:20
+22-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:9:19-47
+23            <intent-filter>
+23-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:10:13-13:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:11:17-68
+24-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:11:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:12:17-76
+26-->/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/src/main/AndroidManifest.xml:12:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <provider
+30-->[com.squareup.picasso:picasso:2.71828] /Users/annazharkova/.gradle/caches/transforms-2/files-2.1/203b04ee8c760a5f7b74f1da73b99acf/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+31            android:name="com.squareup.picasso.PicassoProvider"
+31-->[com.squareup.picasso:picasso:2.71828] /Users/annazharkova/.gradle/caches/transforms-2/files-2.1/203b04ee8c760a5f7b74f1da73b99acf/picasso-2.71828/AndroidManifest.xml:9:13-64
+32            android:authorities="com.example.myapplication.androidApp.com.squareup.picasso"
+32-->[com.squareup.picasso:picasso:2.71828] /Users/annazharkova/.gradle/caches/transforms-2/files-2.1/203b04ee8c760a5f7b74f1da73b99acf/picasso-2.71828/AndroidManifest.xml:10:13-72
+33            android:exported="false" />
+33-->[com.squareup.picasso:picasso:2.71828] /Users/annazharkova/.gradle/caches/transforms-2/files-2.1/203b04ee8c760a5f7b74f1da73b99acf/picasso-2.71828/AndroidManifest.xml:11:13-37
+34    </application>
+35
+36</manifest>
