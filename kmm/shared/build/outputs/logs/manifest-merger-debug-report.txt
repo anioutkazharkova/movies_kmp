@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml:2:1-114
-INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml:2:1-114
-INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml:2:1-114
+ADDED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml:2:1-114
+INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml:2:1-114
+INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml:2:1-114
 	package
-		ADDED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml:2:70-112
-		INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
-		INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml:2:70-112
+		INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml:2:11-69
+		ADDED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml:2:11-69
 uses-sdk
-INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
-		ADDED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
-		INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
-		ADDED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
-		INJECTED from /Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml

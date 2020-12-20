@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "/Users/annazharkova/movies_kmp/kmm/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/annazharkova/.gradle/caches/transforms-2/files-2.1/60a572e8fb7a9761ba8bf1a97a367762/material-1.2.1/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+                    "source": "/Users/annazharkova/.gradle/caches/transforms-2/files-2.1/9b4787054d93adfa92106508c1c35387/material-1.2.1/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

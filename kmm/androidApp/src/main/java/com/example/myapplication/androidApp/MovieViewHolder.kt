@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.androidApp.util.loadImage
 import com.example.myapplication.shared.data.MovieItem
 
 class MovieViewHolder (inflater: LayoutInflater, container: ViewGroup) : RecyclerView.ViewHolder(inflater.inflate(R.layout.item_movies,container,false)) {
@@ -21,5 +22,6 @@ class MovieViewHolder (inflater: LayoutInflater, container: ViewGroup) : Recycle
     fun bindItem(item: MovieItem) {
         titleText?.text = item.title
         overviewText?.text = item.overview
+        image?.loadImage(item.imagePath())
     }
 }

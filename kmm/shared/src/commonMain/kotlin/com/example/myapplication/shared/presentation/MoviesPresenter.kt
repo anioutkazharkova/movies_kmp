@@ -10,46 +10,20 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlin.coroutines.CoroutineContext
 
-class MoviesPresenter() : IMoviesPresenter  {
+class MoviesPresenter() : BasePresenter<IMoviesListView>(ioDispatcher), IMoviesPresenter {
     private var items: ArrayList<MovieItem> = arrayListOf()
     private val service: MoviesService = MoviesService()
-    val coroutineContext: CoroutineContext = ioDispatcher
-    private lateinit var scope: PresenterCoroutineScope
 
-    override fun attachView(view: IMoviesListView){
-        scope = PresenterCoroutineScope(coroutineContext)
-        this.view = view
-
-    }
-
-    override fun detachView() {
-        scope.viewDetached()
-        this.view = null
-    }
-
-    override  fun loadMovies() {
+    override fun loadMovies() {
         scope.launch {
-            val list = service.loadMovies()
-            if (list?.results != null) {
-                items.addAll(list.results)
-                withContext(uiDispatcher) {
+            service.loadMovies {
+                val list = it
+                if (list?.results != null) {
+                    items.addAll(list.results)
                     view?.setupItems(items)
                 }
             }
         }
     }
-
-    override var view: IMoviesListView? = null
-
-
 }
 
-class PresenterCoroutineScope (private val context: CoroutineContext) : CoroutineScope {
-    private  var onViewDetachJob = Job()
-    override val coroutineContext: CoroutineContext
-        get() = context + onViewDetachJob
-
-    fun viewDetached() {
-        onViewDetachJob.cancel()
-    }
-}

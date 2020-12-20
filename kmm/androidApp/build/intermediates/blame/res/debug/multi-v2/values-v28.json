@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/annazharkova/Otus_kmp_17_12/kmm/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "/Users/annazharkova/movies_kmp/kmm/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/annazharkova/.gradle/caches/transforms-2/files-2.1/1b98e1e14bf8157139a93f142c4925f8/appcompat-1.2.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/annazharkova/.gradle/caches/transforms-2/files-2.1/bf9fbe4209d2ad35bdd5dbcb32ff66b9/appcompat-1.2.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/annazharkova/.gradle/caches/transforms-2/files-2.1/60a572e8fb7a9761ba8bf1a97a367762/material-1.2.1/res/values-v28/values-v28.xml",
+                    "source": "/Users/annazharkova/.gradle/caches/transforms-2/files-2.1/9b4787054d93adfa92106508c1c35387/material-1.2.1/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

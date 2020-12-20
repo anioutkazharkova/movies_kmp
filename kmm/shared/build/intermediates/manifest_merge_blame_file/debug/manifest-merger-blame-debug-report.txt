@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="24"
-6-->/Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
+6-->/Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
 7        android:targetSdkVersion="29" />
-7-->/Users/annazharkova/Otus_kmp_17_12/kmm/shared/src/androidMain/AndroidManifest.xml
+7-->/Users/annazharkova/movies_kmp/kmm/shared/src/androidMain/AndroidManifest.xml
 8
 9</manifest>

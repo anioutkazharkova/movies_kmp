@@ -1,8 +1,6 @@
 package com.example.myapplication.shared
 
-import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.Runnable
+import kotlinx.coroutines.*
 import platform.darwin.DISPATCH_QUEUE_PRIORITY_DEFAULT
 import platform.darwin.dispatch_async
 import platform.darwin.dispatch_get_global_queue
@@ -16,6 +14,9 @@ get() = MainDispatcher
 actual val uiDispatcher: CoroutineContext
 get() = MainDispatcher
 
+actual fun ktorScope(block: suspend () -> Unit) {
+    GlobalScope.launch(Dispatchers.Main) { block() }
+}
 
 @ThreadLocal
 private object MainDispatcher: CoroutineDispatcher(){
